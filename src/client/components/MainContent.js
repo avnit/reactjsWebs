@@ -5,7 +5,8 @@ import image3 from "./img/portfolio/thumbnails/3.jpg";
 import image4 from "./img/portfolio/thumbnails/4.jpg";
 import image5 from "./img/portfolio/thumbnails/5.jpg";
 import image6 from "./img/portfolio/thumbnails/6.jpg";
-
+import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import { faStroopwafel, faAngry, faGem, faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 
 function MainContent() {
 return (
@@ -31,28 +32,28 @@ return (
         <div class="row">
           <div class="col-lg-3 col-md-6 text-center">
             <div class="mt-5">
-              <i class="fas fa-4x fa-gem text-primary mb-4"></i>
+          { /*    <FontAwesomeIcon icon={faGem} />  */}
               <h3 class="h4 mb-2">Cloud Migration</h3>
               <p class="text-muted mb-0">Migrate your applications to AWS,Google or Azure cloud</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="mt-5">
-              <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
+              <i className ="fas fa-4x fa-laptop-code text-primary mb-4"></i>
               <h3 class="h4 mb-2">Rebuild application in cloud</h3>
               <p class="text-muted mb-0">Cloud native development. </p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="mt-5">
-              <i class="fas fa-4x fa-globe text-primary mb-4"></i>
+              <i className ="fas fa-4x fa-globe text-primary mb-4"></i>
               <h3 class="h4 mb-2">Cloud Support</h3>
               <p class="text-muted mb-0">Support for all cloud platforms</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="mt-5">
-              <i class="fas fa-4x fa-heart text-primary mb-4"></i>
+              <i className ="fas fa-4x fa-heart text-primary mb-4"></i>
               <h3 class="h4 mb-2">Cloud statergy</h3>
               <p class="text-muted mb-0">Build a statergy to migrate to cloud</p>
             </div>
