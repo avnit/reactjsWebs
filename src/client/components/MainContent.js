@@ -5,8 +5,9 @@ import image3 from "./img/portfolio/thumbnails/3.jpg";
 import image4 from "./img/portfolio/thumbnails/4.jpg";
 import image5 from "./img/portfolio/thumbnails/5.jpg";
 import image6 from "./img/portfolio/thumbnails/6.jpg";
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import { faStroopwafel, faAngry, faGem, faCheckCircle } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faStroopwafel, faPhone,faEnvelope, faGem, faCheckCircle, faCloud, faLaptopCode , faGlobe , faHeart } from '@fortawesome/free-solid-svg-icons';
 
 function MainContent() {
 return (
@@ -32,28 +33,30 @@ return (
         <div class="row">
           <div class="col-lg-3 col-md-6 text-center">
             <div class="mt-5">
-          { /*    <FontAwesomeIcon icon={faGem} />  */}
+             <FontAwesomeIcon icon={faCloud} size="6x" />
               <h3 class="h4 mb-2">Cloud Migration</h3>
               <p class="text-muted mb-0">Migrate your applications to AWS,Google or Azure cloud</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="mt-5">
-              <i className ="fas fa-4x fa-laptop-code text-primary mb-4"></i>
+               <FontAwesomeIcon icon={faLaptopCode} size="6x" />
               <h3 class="h4 mb-2">Rebuild application in cloud</h3>
               <p class="text-muted mb-0">Cloud native development. </p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="mt-5">
-              <i className ="fas fa-4x fa-globe text-primary mb-4"></i>
+             <FontAwesomeIcon icon={faGlobe} size="6x" />
+            {/*  <i className ="fas fa-4x fa-globe text-primary mb-4"></i> */}
               <h3 class="h4 mb-2">Cloud Support</h3>
               <p class="text-muted mb-0">Support for all cloud platforms</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="mt-5">
-              <i className ="fas fa-4x fa-heart text-primary mb-4"></i>
+             <FontAwesomeIcon icon={faHeart} size="6x" />
+          {/*    <i className ="fas fa-4x fa-heart text-primary mb-4"></i> */}
               <h3 class="h4 mb-2">Cloud statergy</h3>
               <p class="text-muted mb-0">Build a statergy to migrate to cloud</p>
             </div>
@@ -159,11 +162,13 @@ return (
         </div>
         <div class="row">
           <div class="col-lg-4 ml-auto text-center">
-            <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
+          <FontAwesomeIcon icon={faPhone} size="3x" />
+
             <div>+1 (312)-292-7155</div>
           </div>
           <div class="col-lg-4 mr-auto text-center">
-            <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
+            <FontAwesomeIcon icon={faEnvelope} size="3x" />
+
             <a class="d-block" href="mailto:hr@asbsolutions.awsapps.com">hr@asbsolutions.awsapps.com</a>
           </div>
         </div>

@@ -9,7 +9,7 @@ const styles = {
     backgroundImage: `url(${Background})`,
     height: '100vh',
     width: '100%',
-    //opacity: 0.6,
+    opacity: 0.8,
     //backgroundColor: '#5c4d42',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',

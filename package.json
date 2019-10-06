@@ -5,9 +5,11 @@
   "main": "src/server/index.js",
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.8.1",
-    "@fortawesome/fontawesome-svg-core": "^1.2.22",
-    "@fortawesome/free-solid-svg-icons": "^5.10.2",
-    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-brands-svg-icons": "^5.11.2",
+    "@fortawesome/free-regular-svg-icons": "^5.11.2",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.5",
     "babel-polyfill": "^6.26.0",
     "bootstrap": "4.3.1",
     "express": "^4.16.3",
@@ -26,7 +28,7 @@
     "server": "nodemon src/server/index.js",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "author": "Sandeep Raveesh",
+  "author": "Avnit Bambah",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.0.0",
