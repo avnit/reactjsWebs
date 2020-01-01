@@ -5,7 +5,7 @@ function GetTime() {
   const getMinutes = date.getMinutes()
   const getMilliseconds = date.getMilliseconds()
   let totaltimetaken
-   fetch('https://community-open-weather-map.p.rapidapi.com/weather').
+   fetch('http://www.asbsolutionsgroup.com/').
     then(function(response){
         return response.json()
     })
@@ -13,7 +13,7 @@ function GetTime() {
    return (
       <p1> totaltimetaken = {getAPI} </p1>
    )
-  
+
 }
 
 export default GetTime
