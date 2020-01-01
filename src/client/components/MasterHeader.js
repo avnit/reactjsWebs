@@ -19,17 +19,17 @@ const styles = {
 
 
 
-function Header() {
+function MasterHeader() {
   return (
     <header style = { styles.header } className="masthead">
       <div class="container h-100">
         <div class="row h-100 align-items-center justify-content-center text-center">
           <div class="col-lg-10 align-self-end">
-            <h1 class="text-uppercase text-white font-weight-bold">ASB Solutions Group LLC</h1>
+            <h1 class="text-uppercase text-white font-weight-bold">ASB Solutions Group Inc.</h1>
             <div class="divider my-4" />
           </div>
           <div class="col-lg-8 align-self-baseline">
-            <p class="text-white-75 font-weight-light mb-5">Statergy, build ,deploy and Support cloud applicaiton on AWS, Google and Azure. </p>
+            <p class="text-white-75 font-weight-light mb-5">Statergy, Build ,Deploy and Support Cloud Applicaiton on AWS, Google and Azure. </p>
             <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
           </div>
         </div>
@@ -38,4 +38,4 @@ function Header() {
   )
 }
 
-export default Header
+export default MasterHeader
