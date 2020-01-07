@@ -1,13 +1,13 @@
-import React from "react"
+import React from 'react';
 
 function Footer() {
   return (
-    <footer class="bg-light py-5">
-      <div class="container">
-        <div class="small text-center text-muted">Copyright &copy; 2019 - ASB Solutions</div>
+    <footer className="bg-light py-5">
+      <div className="container">
+        <div className="small text-center text-muted">Copyright &copy; 2019 - ASB Solutions Group Inc</div>
       </div>
     </footer>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
