@@ -21,9 +21,9 @@ function MainContent() {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8 text-center">
-              <h2 className="text-white mt-0">We&#39;ve got what you need!</h2>
+              <h2 className="text-white mt-0">About us</h2>
               <div className="divider light my-4"> </div>
-              <p className="text-white-50 mb-4">We got best consultants and experience to make your organization cloud enabled.</p>
+              <p className="text-white-50 mb-4">ASB Solutions Group Inc. (ASB) is a minority women owned business based in Chicago. ASB is a proud Google Cloud Partner and AWS Consulting Partner. They currently have contracts with prestigious firms. ASB Solutions Group Inc. specializes in migrating applications to cloud. They also specialize in Machine Learning, AI, Big Data, and Application Redesign. The other half of ASB is focused on marketing and promoting business to reach a wider audience to gain more recognition in their given sector. ASB is currently a marketing partner for Absolutely Astrology. ASB Solutions Group Inc. was founded in 2019.</p>
               <a className="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
             </div>
           </div>
